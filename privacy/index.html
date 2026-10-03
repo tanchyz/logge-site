@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy — Logge</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, monospace; background: #282828; color: #EBDBB2; line-height: 1.7; }
+        .container { max-width: 680px; margin: 0 auto; padding: 48px 24px; }
+        h1 { font-size: 1.8rem; margin-bottom: 4px; }
+        .updated { font-size: 0.8rem; color: #928374; margin-bottom: 32px; }
+        h2 { font-size: 1.05rem; margin-top: 28px; margin-bottom: 8px; color: #FABD2F; }
+        p, ul { margin-bottom: 16px; font-size: 0.9rem; color: #D5C4A1; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 6px; }
+        a { color: #FABD2F; text-decoration: none; word-break: break-word; }
+        a:hover { text-decoration: underline; }
+        .back { display: inline-block; margin-bottom: 24px; font-size: 0.85rem; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a class="back" href="/">← Logge</a>
+        <h1>Privacy Policy</h1>
+        <p class="updated">Last updated: October 3, 2026</p>
+
+        <h2>Summary</h2>
+        <ul>
+            <li>Your data stays on your device. Logge has no servers, no accounts and no analytics.</li>
+            <li>Logge does not track you and does not sell or share data with advertisers or data brokers.</li>
+            <li>Data leaves your device only when you explicitly enable a cloud AI provider with your own API key.</li>
+        </ul>
+
+        <h2>Data stored on your device</h2>
+        <p>Events, trackers, categories, alert rules, notes and computed statistics are stored locally on your device. They are not synced to iCloud or any other service. Deleting the app, or using Settings › Erase All Data, removes them. API keys you enter for AI providers are stored in the iOS Keychain on your device.</p>
+
+        <h2>Apple Health (HealthKit)</h2>
+        <p>If you grant permission, Logge reads selected Health data (such as sleep, steps and heart rate) to find correlations with the events you log. Logge never writes to Health. Health data:</p>
+        <ul>
+            <li>is processed on your device only;</li>
+            <li>is never used for advertising, marketing or data mining;</li>
+            <li>is never sold or shared with third parties;</li>
+            <li>is never sent to cloud AI providers in raw form. When cloud AI is enabled, only short aggregated summaries (for example “average sleep 6.8 h”) may be included in a request.</li>
+        </ul>
+
+        <h2>Calendar</h2>
+        <p>If you grant permission, Logge reads calendar events on your device to suggest events to log and to find correlations. Calendar data is processed on-device and is never uploaded.</p>
+
+        <h2>AI features</h2>
+        <p><strong>Apple Intelligence (default)</strong> runs on-device. No data leaves your device.</p>
+        <p><strong>Cloud AI providers (optional, bring your own key).</strong> If you add an API key for Anthropic (Claude), OpenAI or Google (Gemini), Logge sends an aggregated summary of your statistics — category and tracker names, counts, frequencies and detected patterns — directly from your device to the provider you chose. That provider’s privacy policy applies to the request:</p>
+        <ul>
+            <li>Anthropic: <a href="https://www.anthropic.com/legal/privacy">anthropic.com/legal/privacy</a></li>
+            <li>OpenAI: <a href="https://openai.com/policies/privacy-policy">openai.com/policies/privacy-policy</a></li>
+            <li>Google: <a href="https://policies.google.com/privacy">policies.google.com/privacy</a></li>
+        </ul>
+        <p>You can remove your API key at any time to stop sending requests.</p>
+
+        <h2>Subscriptions</h2>
+        <p>Logge Pro is an auto-renewable subscription processed entirely by Apple. Logge receives only the subscription status from the App Store and never sees your payment information.</p>
+
+        <h2>Export</h2>
+        <p>When you export data (PDF, CSV, JSON), the file is created on your device and shared only where you choose to send it.</p>
+
+        <h2>UserDefaults</h2>
+        <p>The app uses UserDefaults (Apple’s standard preference storage) for non-sensitive settings such as theme, font and onboarding status. This is declared in the app’s Privacy Manifest under reason CA92.1.</p>
+
+        <h2>Children’s Privacy</h2>
+        <p>Logge is not directed at children under 13 and does not knowingly collect data from children.</p>
+
+        <h2>Changes</h2>
+        <p>If this policy changes, the updated version will be posted on this page with a new date.</p>
+
+        <h2>Contact</h2>
+        <p>Questions about this policy: <a href="mailto:kb.zykov@gmail.com">kb.zykov@gmail.com</a>.</p>
+    </div>
+</body>
+</html>
